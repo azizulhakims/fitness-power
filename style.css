@@ -27,6 +27,8 @@ nav{
     background-color: black;
     padding: 15px;
     color: white;
+    width: 100%;
+    height: 5px;
 }
 .menu-items{
     display: flex;
@@ -43,6 +45,7 @@ nav{
     cursor: pointer;
 }
 .logo{
+    font-size: 35px;
     text-align: left;
     padding: 10px;
     margin: 5px;
@@ -58,6 +61,7 @@ nav{
 }
 
 .banner-left{
+    width: 50%;
     margin-left: 50px;
 }
 .banner-left h6{
@@ -82,6 +86,7 @@ margin: 20px;
     color: white;
     font-size: 15px;
     border-radius: 5px;
+    text-decoration: none;
 
 }
 
@@ -121,4 +126,52 @@ article h1{
     border: 1px solid rgb(243, 29, 29);
     margin-top:0px;
     transition:.8ms;
+}
+.about-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    margin-top: 70px;
+}
+.left-container{
+    width: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.left-container img{
+    width: 400px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+.right-container {
+   padding: 40px;
+ 
+}
+.right-container ul{
+    margin: 20px 30px 20px 40px;
+}
+
+.s-inquiry{
+    width: 700px;
+    height: 200px;
+    background-image: url(./images/Gym-practice-project-main/images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}   
+button{
+    font-size: 30px;
+    color: rgb(56, 54, 54);
+    border-radius: 4px;
+    border: none;
+}
+.inquiry h1{
+    font-size: 45px;
 }
