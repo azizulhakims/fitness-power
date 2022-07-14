@@ -175,3 +175,76 @@ button{
 .inquiry h1{
     font-size: 45px;
 }
+
+
+.service{
+    width: 400px;
+    height: 520px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px gray;
+    
+
+    
+}
+.service-img img{
+    width: 100%;
+    border-radius: 10px
+    
+
+}
+
+.service-text{
+    padding: 20px;
+}
+
+.service-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.service-footer a{
+    text-decoration: none;
+    color: red;
+}
+
+.service-text h5{
+    color: red;
+    font-size: 20px;
+}
+
+.data-test{
+     width: 100%;
+     padding: 20px;
+     margin-left: 40px;
+    display: flex;
+    
+}
+.data-h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.data-h1 h1{
+    font-size: 50px;
+}
+.hr-color{
+    margin: auto 50px;
+    color: gray;
+}
+
+footer{
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+footer a+a{
+    margin-left: 40px;
+}
