@@ -251,3 +251,16 @@ footer a+a{
 span{
     color: brown;
 }
+
+.batch{
+    position: relative;
+
+}
+.batch img{
+    width: 50px;
+    top: -25px;
+    left: 370px;
+    position: absolute;
+    
+
+}
