@@ -84,3 +84,41 @@ margin: 20px;
     border-radius: 5px;
 
 }
+
+article{
+    margin-top: 70px;
+    padding: 50px;
+    
+}
+article h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.look-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-1{
+    width: 50px;
+}
+.cart1{
+    width: 250px;
+    height: 200px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+}
+
+.cart1:hover{
+    border: 1px solid rgb(243, 29, 29);
+    margin-top:0px;
+    transition:.8ms;
+}
